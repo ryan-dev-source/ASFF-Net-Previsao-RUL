@@ -60,6 +60,10 @@ RMSE: 15.97 ciclos
 
 Score NASA: 36.756 (Viés conservador de segurança)
 
-✍️ Autores
+✍️ Autor
 
 Ryan Gabriel Elesbão - Universidade Federal de Uberlândia (UFU)
+
+Henrique Coelho Fernandes
+
+João Marcelo Vedovotto
