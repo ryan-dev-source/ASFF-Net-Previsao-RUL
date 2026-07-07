@@ -1,4 +1,4 @@
-##ASFF-Net: Attention-based Spatial Feature Fusion Network ✈️🧠
+✈️ ASFF-Net: Attention-based Spatial Feature Fusion Network 🧠
 
 Este repositório contém o código-fonte, artigo científico e apresentação do projeto ASFF-Net, desenvolvido para a previsão da Vida Útil Restante (RUL - Remaining Useful Life) de motores turbofan da NASA.
 
@@ -18,32 +18,34 @@ Função de Perda Assimétrica: Uma métrica orientada ao risco que penaliza sev
 
 O modelo foi treinado e avaliado no conjunto de dados CMAPSS (FD001) da NASA.
 
-Aviso: Devido ao tamanho do dataset, os dados brutos não estão incluídos neste repositório.
+⚠️ Aviso: Devido ao tamanho do dataset, os dados brutos não estão incluídos neste repositório.
 Pode descarregar os dados originais através deste link no Kaggle: NASA CMAPSS Turbofan Engine Degradation
 
 📁 Estrutura do Repositório
 
-/codigo: Scripts em Python para pré-processamento, EDA, arquitetura da rede, treino e avaliação.
+📂 /codigo: Scripts em Python para pré-processamento, EDA, arquitetura da rede, treino e avaliação.
 
-/artigo: Código LaTeX e PDF final do artigo científico (5 páginas, estilo NeurIPS).
+📂 /artigo: Código LaTeX e PDF final do artigo científico (5 páginas, estilo NeurIPS).
 
-/apresentacao: Ficheiro PowerPoint e o script Python utilizado para gerar os slides iniciais.
+📂 /apresentacao: Ficheiro PowerPoint e o script Python utilizado para gerar os slides iniciais.
 
 🚀 Como Executar
 
-Clone este repositório:
+1. Clone este repositório:
 
-git clone [https://github.com/SEU-USUARIO/ASFF-Net.git](https://github.com/SEU-USUARIO/ASFF-Net.git)
+git clone https://github.com/ryan-dev-source/ASFF-Net-Previsao-RUL.git
+cd ASFF-Net-Previsao-RUL
 
 
-Instale as dependências necessárias:
+2. Instale as dependências necessárias:
 
 pip install pandas numpy matplotlib scikit-learn tensorflow python-pptx
 
 
-Descarregue o dataset do Kaggle e coloque-o na pasta local. Atualize a variável caminho_arquivo no ficheiro modelo_asff_net.py.
+3. Descarregue o dataset:
+Baixe os dados do Kaggle e coloque-os na pasta local. Atualize a variável caminho_arquivo no ficheiro modelo_asff_net.py.
 
-Execute o script principal:
+4. Execute o script principal:
 
 python codigo/modelo_asff_net.py
 
